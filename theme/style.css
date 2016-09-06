@@ -1,0 +1,1471 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1.5;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*footer.entry-meta .cat-links:before, footer.entry-meta .tag-links:before, footer.entry-meta .comments-link:before, footer.entry-meta .edit-link:before, .post-navigation .nav-previous:before {
+	background: transparent url('https://2015.la.wordcamp.org/files/2015/05/icons-sm.png');
+	background-repeat: no-repeat;
+	content: '';
+	display: inline-block;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	margin-right: .14815rem;
+	overflow: hidden;
+	height: 16px;
+	vertical-align: text-top;
+	width: 16px;
+}
+
+.post-navigation .nav-next:after {
+	background: transparent url('https://2015.la.wordcamp.org/files/2015/05/icons-sm.png');
+	background-repeat: no-repeat;
+	content: '';
+	display: inline-block;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1;
+	margin-left: .14815rem;
+	overflow: hidden;
+	height: 16px;
+	vertical-align: text-top;
+	width: 16px;
+}
+
+footer.entry-meta .cat-links:before {
+	background-position: 0 0;
+}
+
+footer.entry-meta .tag-links:before {
+	background-position: 0 -16px;
+}
+
+footer.entry-meta .comments-link:before {
+	background-position: 0 -32px;
+}
+
+footer.entry-meta .edit-link:before {
+	background-position: 0 -48px;
+}
+
+.post-navigation .nav-previous:before {
+	background-position: 0 -64px;
+}
+
+.post-navigation .nav-next:after {
+	background-position: 0 -80px;
+}*/
+/* Styles */
+html {
+	font-size: .75rem;
+}
+
+@media print,screen and (min-width: 4768px) {
+	html {
+		font-size: 1rem;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	html {
+		font-size: 1.125rem;
+	}
+}
+
+body {
+	background: #f6efef;
+/* #ece3db;*/
+	background-image: url('https://2015.la.wordcamp.org/files/2015/05/otis-redding.png');
+	color: #604b43;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+img:after {
+	background-image: url('https://2016.manchester.wordcamp.org/files/2016/07/worker-bee.png');
+	content: attr(alt);
+	display: block;
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+img.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+img.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a img.alignright {
+	float: right;
+	margin: 0 0 1em 1em;
+}
+
+a img.alignleft {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a {
+	color: #ad4c23;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff6f32;
+}
+
+a.button {
+	border: 2px solid #ad4c23;
+	padding: 5px 10px;
+	text-transform: uppercase;
+}
+
+a.button:hover {
+	border-color: #ff6f32;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+	font-family: inherit;
+	font-size: inherit;
+}
+
+input[type='submit'] {
+	background: #ad4c23;
+	border: 0 none;
+	border-radius: 4px;
+	color: #e6f2f0;
+	cursor: pointer;
+	font-size: 1.125rem;
+	font-weight: bold;
+	padding: .44444rem 1rem;
+	text-transform: uppercase;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+input[type='submit']:hover {
+	background: #ff6f32;
+	color: white;
+}
+
+.assistive-text {
+	clip: rect(1px 1px 1px 1px);
+/* IE6, IE7 */
+	clip: rect(1px,1px,1px,1px);
+	position: absolute !important;
+}
+
+.site-header {
+/* background: #ad4c23 url('https://2015.la.wordcamp.org/files/2015/05/header.jpg') 50% 100% no-repeat; */
+	background: #ad4c23;
+	background-size: cover;
+	border-top: 5px solid #ad4c23;
+	-moz-box-shadow: inset 0 10px 60px rgba(126,99,88,0.5);
+	-webkit-box-shadow: inset 0 10px 60px rgba(126,99,88,0.5);
+	box-shadow: inset 0 10px 60px rgba(126,99,88,0.5);
+	margin-bottom: 7.75rem;
+	position: relative;
+	text-align: center;
+}
+
+.site-header hgroup {
+	padding: 1% 0;
+}
+
+.site-header img {
+	max-width: 80%;
+}
+
+.menu-primary-nav-container {
+	width: 800px;
+	margin: auto;
+	display: block;
+}
+
+.main-navigation {
+	background: white;
+	bottom: -4.375rem;
+	font-family: 'Lato', sans-serif;
+	left: 0;
+	position: absolute;
+	text-align: left;
+	width: 100%;
+}
+
+.main-navigation ul {
+	margin: 0 auto;
+	max-width: 62rem;
+	padding: 0 1rem;
+}
+
+.main-navigation ul li.current-menu-item > a,
+.main-navigation ul li.current_page_item > a,
+.main-navigation ul li.current_page_ancestor > a,
+.main-navigation ul li.current-menu-parent > a {
+	color: #7e6358;
+}
+
+.main-navigation ul > li {
+	display: inline-block;
+}
+
+.main-navigation ul > li a {
+	color: #ad4c23;
+	display: block;
+	padding: 1.6875rem .66667rem 1.6875rem 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	-moz-transition: color 300ms;
+	-o-transition: color 300ms;
+	-webkit-transition: color 300ms;
+	transition: color 300ms;
+}
+
+.main-navigation ul > li a:before {
+	color: #e3d6ca;
+	content: '|';
+	margin-right: .75rem;
+}
+
+.main-navigation ul > li a:hover {
+	color: #e3463a;
+}
+
+.main-navigation ul > li:first-child a:before {
+	content: '';
+}
+
+.main-navigation ul > li.menu-item-has-children {
+	position: relative;
+}
+
+.main-navigation ul > li.menu-item-has-children > a {
+	padding-right: 1rem;
+}
+
+.main-navigation ul > li.menu-item-has-children > a:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	right: .2963rem;
+	margin-top: -2px;
+	height: 0;
+	width: 0;
+/* order of following 3 rules important for fallbacks to work */
+	border: 4px solid transparent;
+	border-top-color: #ad4c23;
+}
+
+.main-navigation ul > li.menu-item-has-children > a:hover:after {
+	border-top-color: #ff6f32;
+}
+
+.main-navigation ul li:hover ul {
+	display: block;
+}
+
+.main-navigation ul ul {
+	background: rgba(255,255,255,0.9);
+	display: none;
+	padding: .66667rem 1.125rem;
+	position: absolute;
+	top: 4em;
+	width: auto;
+}
+
+.main-navigation ul ul li {
+	display: block;
+}
+
+.main-navigation ul ul a {
+	padding: .75rem 0;
+	white-space: nowrap;
+}
+
+.main-navigation ul ul a:before {
+	content: '';
+	margin-right: 0;
+}
+
+.main-small-navigation {
+	background: rgba(255,255,255,0.95);
+	position: absolute;
+	width: 100%;
+}
+
+.main-small-navigation .menu-primary-container > ul {
+	border-bottom: 5px solid #ad4c23;
+	display: none;
+}
+
+.main-small-navigation .menu-toggle {
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.125rem;
+	padding: 1rem;
+	width: auto;
+}
+
+.main-small-navigation ul {
+	text-align: left;
+	padding: 0 1rem 1rem;
+}
+
+.main-small-navigation a {
+	border-bottom: 1px solid #e3d6ca;
+	display: block;
+	padding: .75rem 0;
+}
+
+#after-header-widgets {
+	margin: 1.6875rem auto;
+	max-width: 62rem;
+}
+
+#after-header-widgets:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+#after-header-widgets .widget {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	margin: 0 auto 1rem;
+	padding: 0 1rem;
+	width: 50%;
+}
+
+@media screen and (min-width: 576px) {
+	#after-header-widgets .widget {
+		width: 25%;
+	}
+}
+
+#after-header-widgets .textwidget h4 {
+	font-size: 1.5rem;
+	margin: 0 0 .75rem;
+}
+
+#after-header-widgets .textwidget img {
+	border-radius: 2px;
+	-moz-box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	-webkit-box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+#after-header-widgets .textwidget img:hover {
+	-moz-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	-webkit-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+#after-header-widgets .textwidget p:last-child {
+	margin-bottom: 0;
+}
+
+#after-header-widgets .widget:nth-child(1) img {
+	border-top: 5px solid #ad4c23;
+}
+
+#after-header-widgets .widget:nth-child(2) img {
+	border-top: 5px solid #fdc17b;
+}
+
+#after-header-widgets .widget:nth-child(3) img {
+	border-top: 5px solid #ff6f32;
+}
+
+#after-header-widgets .widget:nth-child(4) img {
+	border-top: 5px solid #7e6358;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Mono', monospace;
+}
+
+#main {
+	background: url('https://2015.la.wordcamp.org/files/2015/05/logo-prefooter.png') 50% 100% no-repeat;
+	margin: 3.375rem auto 2.25rem;
+	max-width: 62rem;
+	padding-bottom: 7.59375rem;
+}
+
+#main:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+#primary {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	#primary {
+		float: left;
+		width: 70%;
+	}
+}
+
+#secondary {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	#secondary {
+		float: right;
+		width: 30%;
+	}
+}
+
+article {
+	background-color: white;
+	background-image: url('https://2015.la.wordcamp.org/files/2015/05/divider-post.png'), url('https://2015.la.wordcamp.org/files/2015/05/divider-post-after.png');
+	background-position: 0 0, 50% 100%;
+	background-repeat: no-repeat, no-repeat;
+	border-radius: 2px;
+	-moz-box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	-webkit-box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	margin-bottom: 2.53125rem;
+	padding: 2.53125rem;
+}
+
+.entry-header {
+	margin-bottom: 1.5rem;
+}
+
+.entry-title {
+	font-size: 2.53125rem;
+	line-height: 1.125;
+	margin-bottom: .66667rem;
+	-moz-transition: color 300ms;
+	-o-transition: color 300ms;
+	-webkit-transition: color 300ms;
+	transition: color 300ms;
+}
+
+.entry-title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.entry-title a:hover {
+	color: #ad4c23;
+}
+
+.entry-title + .entry-meta {
+	color: #cfc0ba;
+	font-family: 'PT Mono', monospace;
+	font-size: 1.5rem;
+}
+
+.entry-title + .entry-meta a {
+	color: #fdc17b;
+	text-decoration: none;
+	-moz-transition: color 300ms;
+	-o-transition: color 300ms;
+	-webkit-transition: color 300ms;
+	transition: color 300ms;
+}
+
+.entry-title + .entry-meta a:hover {
+	color: #df3124;
+}
+
+.entry-content > p:first-of-type {
+	font-family: 'PT Mono', monospace;
+	font-size: 1.125rem;
+	margin-bottom: 1.125rem;
+}
+
+.entry-content blockquote {
+	font-size: 1.6875rem;
+	margin: 2.25rem 1rem;
+}
+
+.comment-content blockquote {
+	font-size: 1.5rem;
+	margin: 1.5rem .75rem;
+}
+
+.entry-content p,
+.comment-content p,
+.entry-content address {
+	line-height: 1.5;
+	margin: 0 0 1rem;
+}
+
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6,
+.comment-content h1,
+.comment-content h2,
+.comment-content h3,
+.comment-content h4,
+.comment-content h5,
+.comment-content h6 {
+	line-height: 1.125;
+	margin: 2.25rem 0 .75rem;
+}
+
+.entry-content h1,
+.comment-content h1 {
+	font-size: 2.53125rem;
+}
+
+.entry-content h2,
+.comment-content h2 {
+	font-size: 2.25rem;
+}
+
+.entry-content h3,
+.comment-content h3 {
+	font-size: 1.6875rem;
+}
+
+.entry-content h4,
+.comment-content h4 {
+	font-size: 1.5rem;
+}
+
+.entry-content h5,
+.comment-content h5 {
+	font-size: 1.125rem;
+}
+
+.entry-content h6,
+.comment-content h6 {
+	font-size: 1rem;
+}
+
+.entry-content a,
+.comment-content a {
+	color: #ff6f32;
+	text-decoration: none;
+	-moz-transition: color 300ms;
+	-o-transition: color 300ms;
+	-webkit-transition: color 300ms;
+	transition: color 300ms;
+}
+
+.entry-content a:hover,
+.comment-content a:hover {
+	color: #ad4c23;
+}
+
+.entry-content strong,
+.comment-content strong {
+	font-weight: bold;
+}
+
+.entry-content em,
+.comment-content em {
+	font-style: italic;
+}
+
+.entry-content blockquote,
+.comment-content blockquote {
+	border-bottom: 1px solid #1aaacd;
+	border-top: 1px solid #1aaacd;
+	font-family: 'PT Mono', monospace;
+	padding: 1rem;
+}
+
+.entry-content blockquote p:last-child,
+.comment-content blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+.entry-content ul,
+.comment-content ul {
+	list-style-type: square;
+	margin: 0 0 1rem 2.53125rem;
+}
+
+.entry-content ol,
+.comment-content ol {
+	list-style-type: decimal;
+	margin: 0 0 1rem 2.53125rem;
+}
+
+.entry-content li,
+.comment-content li {
+	line-height: 1.5;
+	margin-bottom: .33333rem;
+}
+
+.entry-content label,
+.comment-content label {
+	display: block;
+	font-weight: bold;
+	font-size: 1.125rem;
+	line-height: 1.125;
+	margin: .75rem 0 .33333rem;
+}
+
+.entry-content label span,
+.comment-content label span {
+	color: #ff6f32;
+	font-size: .75rem;
+	padding-left: .33333rem;
+}
+
+.entry-content input[type='text'],
+.entry-content input[type='email'],
+.entry-content textarea,
+.comment-content input[type='text'],
+.comment-content input[type='email'],
+.comment-content textarea,
+#comment {
+	background: #f6f2ef;
+	border: 1px solid #e3d6ca;
+	border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: .5rem;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+	width: 100%;
+}
+
+.entry-content input[type='text']:focus,
+.entry-content input[type='email']:focus,
+.entry-content textarea:focus,
+.comment-content input[type='text']:focus,
+.comment-content input[type='email']:focus,
+.comment-content textarea:focus,
+#comment:focus {
+	background: #fff0df;
+	border-color: #fdc17b;
+	outline: none;
+}
+
+.entry-content .contact-submit,
+.comment-content .contact-submit {
+	margin: 1rem 0;
+	text-align: center;
+}
+
+footer.entry-meta {
+	border-bottom: 1px solid #fdcd94;
+	border-top: 1px solid #fdcd94;
+	color: #cfc0ba;
+	line-height: 1.5;
+	margin: 2.25rem 0 0;
+	padding: .5rem 0;
+}
+
+footer.entry-meta .sep {
+	margin: 0 .33333rem;
+}
+
+.post-navigation {
+	line-height: 1.5;
+	margin-bottom: 1.6875rem;
+	padding: 0 2.53125rem;
+}
+
+.post-navigation:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a {
+	color: #7e6358;
+}
+
+.post-navigation .nav-previous a:hover,
+.post-navigation .nav-next a:hover {
+	color: #ff6f32;
+}
+
+.post-navigation .nav-previous .meta-nav,
+.post-navigation .nav-next .meta-nav {
+	display: none;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
+}
+
+.comments-area {
+	background: white;
+	border-top: 10px solid #fdc17b;
+	border-radius: 2px;
+	-moz-box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	-webkit-box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	box-shadow: 0 0 12px rgba(126,99,88,0.1);
+	margin-bottom: 1.6875rem;
+	padding: 2.53125rem;
+}
+
+.comments-area .comments-title {
+	font-size: 2.25rem;
+	line-height: 1.125;
+	margin-bottom: 2.25rem;
+}
+
+.comments-area .comment-author {
+	line-height: 1.5;
+}
+
+.comments-area .comment-author .avatar {
+	border: 3px solid #ff6f32;
+	border-radius: 100%;
+	float: right;
+}
+
+.comments-area .comment-meta {
+	font-size: .75rem;
+	line-height: 1.5;
+	margin: 0 0 1.125rem;
+}
+
+.commentlist li {
+	border-bottom: 1px solid #fdcd94;
+	margin: 0 0 1.6875rem;
+	padding: 0 0 1.6875rem;
+}
+
+.commentlist li li {
+	border-bottom: 0 none;
+	border-top: 1px solid #fdcd94;
+	margin: 1.6875rem 0 0 1.5rem;
+	padding: 1.6875rem 0 0;
+}
+
+.comment-reply-link {
+	background: #ad4c23;
+	border: 0 none;
+	border-radius: 4px;
+	color: #e6f2f0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: .75rem;
+	font-weight: bold;
+	padding: .44444rem .75rem;
+	text-transform: uppercase;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+}
+
+.comment-reply-link:hover {
+	background: #ff6f32;
+	color: white;
+}
+
+.comment-reply-title {
+	font-size: 1.6875rem;
+	margin: 0 0 1rem;
+}
+
+#primary-sidebar .widget {
+	background: url('https://2016.manchester.wordcamp.org/files/2016/07/worker-bee.png') 50% 100% no-repeat;
+	margin: 0 0 2.53125rem;
+	padding-bottom: 3.79688rem;
+}
+
+#primary-sidebar input[type='text'],
+#primary-sidebar input[type='email'] {
+	background: rgba(255,255,255,0.8);
+	border: 0 none;
+	border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: .5rem;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+	width: 100%;
+}
+
+#primary-sidebar input[type='text']:focus,
+#primary-sidebar input[type='email']:focus {
+	background: white;
+	outline: none;
+}
+
+#primary-sidebar input[type='submit'] {
+	display: inline-block;
+}
+
+#primary-sidebar #subscribe-submit {
+	text-align: center;
+}
+
+.widget p {
+	line-height: 1.5;
+	margin: 0 0 1rem;
+}
+
+.widget .widget-title {
+	border-bottom: 1px solid #d1bca9;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.125rem;
+	font-weight: bold;
+	margin: 0 0 .66667rem;
+	padding: 0 0 .66667rem;
+	text-transform: uppercase;
+}
+
+.widget li {
+	border-bottom: 1px solid #d1bca9;
+	line-height: 1.5;
+	margin: 0 0 .5rem;
+	padding-bottom: .5rem;
+}
+
+.widget li a {
+	color: #ad4c23;
+	text-decoration: none;
+	-moz-transition: color 300ms;
+	-o-transition: color 300ms;
+	-webkit-transition: color 300ms;
+	transition: color 300ms;
+}
+
+.widget li a:hover {
+	color: #ff6f32;
+}
+
+.site-footer {
+	background: white;
+}
+
+#footer-widgets {
+	margin: 0 auto;
+	max-width: 62rem;
+	padding: 1.125rem;
+}
+
+#footer-widgets:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+#footer-widget-1,
+#footer-widget-2,
+#footer-widget-3 {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	#footer-widget-1,
+																																																																									  #footer-widget-2,
+																																																																									  #footer-widget-3 {
+		float: left;
+		width: 33.33333%;
+	}
+}
+
+@media print,screen and (min-width: 4768px) {
+	#footer-widget-1,
+																																																																									  #footer-widget-2,
+																																																																									  #footer-widget-3 {
+		width: 20%;
+	}
+}
+
+#footer-widget-4 {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 1rem;
+}
+
+@media screen and (min-width: 576px) {
+	#footer-widget-4 {
+		clear: both;
+		margin-top: 1rem;
+	}
+}
+
+@media print,screen and (min-width: 4768px) {
+	#footer-widget-4 {
+		clear: none;
+		float: right;
+		margin-top: 0;
+		width: 40%;
+	}
+}
+
+.site-info {
+	-moz-box-shadow: inset 0 -10px 60px rgba(126,99,88,0.5);
+	-webkit-box-shadow: inset 0 -10px 60px rgba(126,99,88,0.5);
+	box-shadow: inset 0 -10px 60px rgba(126,99,88,0.5);
+	background: #fafafa;
+/*190700;*/
+/*background-image: url('https://2016.manchester.wordcamp.org/files/2016/07/worker-bee.png');*/
+	padding: 3.79688rem 1rem;
+	text-align: center;
+}
+
+.site-info .site-info-generator {
+	background: url('https://2016.manchester.wordcamp.org/files/2016/07/worker-bee.png') 50% 0 no-repeat;
+	display: block;
+	padding-top: 5.0625rem;
+}
+
+.site-info .site-info-generator:hover {
+	color: #fdc17b;
+}
+
+.site-info .site-info-network {
+	background: url('https://2015.la.wordcamp.org/files/2015/05/header-ribbon.png') 50% 0 no-repeat;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #190700;
+	cursor: pointer;
+	font-size: .65rem;
+	height: 78px;
+	left: 1.125rem;
+	padding: 7px 10px 0;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+	width: 95px;
+	font-family: 'PT Mono', monospace;
+}
+
+.admin-bar .site-info .site-info-network {
+	top: 32px;
+}
+
+.site-info .site-info-network:hover {
+	color: #ff6f32;
+}
+
+body div.sharedaddy h3.sd-title {
+	font-size: 1.125rem;
+	margin: 1rem 0 .75rem;
+}
+
+body div.sharedaddy h3.sd-title:before {
+	border-top: 0 none;
+	margin-bottom: 0;
+}
+
+.wcorg-organizer {
+	border-bottom: 1px solid #e3d6ca;
+}
+
+.wcorg-organizer:first-child {
+	border-top: 1px solid #e3d6ca;
+}
+
+.wcorg-organizer .wcorg-organizer-description:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.wcorg-organizer .avatar {
+	float: left;
+	margin: 0 1rem 1rem 0;
+}
+
+.widget .wcorg-organizer {
+	line-height: 50px;
+}
+
+.widget .wcorg-organizer .avatar {
+	margin: 0;
+	border-radius: 36px;
+	height: 36px;
+	width: 36px;
+}
+
+.widget .wcorg-organizer:before,
+.widget .wcorg-organizer:after {
+	content: "";
+	display: table;
+}
+
+.widget .wcorg-organizer:after {
+	clear: both;
+}
+
+.widget .wcorg-organizer {
+	zoom: 1;
+/* For IE 6/7 (trigger hasLayout) */
+}
+
+.widget .wcorg-organizer > h2 {
+	margin-right: 50px;
+	float: left;
+}
+
+.widget .wcorg-organizer .wcorg-organizer-description {
+	float: right;
+	padding: 7px 0;
+}
+
+.wcorg-organizer div.sharedaddy {
+	display: none;
+}
+
+.speaker {
+	border-bottom: 1px solid #e3d6ca;
+}
+
+.speaker:first-child {
+	border-top: 1px solid #e3d6ca;
+}
+
+.speaker .speaker-bio > p:first-of-type {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.speaker .speaker-bio:after {
+	clear: both;
+	content: '';
+	display: table;
+}
+
+.speaker .avatar {
+	float: left;
+	margin: 0 1rem 1rem 0;
+}
+
+.speaker div.sharedaddy {
+	display: none;
+}
+
+.widget_wpcom_social_media_icons_widget .genericon {
+	font-size: 36px;
+}
+
+.wcpt-schedule {
+	margin: 1.125rem 0;
+}
+
+.wcpt-schedule th, .wcpt-schedule td {
+	padding: .75rem;
+}
+
+.wcpt-schedule th {
+	background: #fafafa;
+	border: 1px solid white;
+/*color: white;*/
+	font-family: 'PT Mono', monospace;
+}
+
+.wcpt-schedule .wcpt-time {
+	background: #fafafa;
+	border: 1px solid white;
+	font-family: 'PT Mono', monospace;
+}
+
+.wcpt-schedule .wcpt-session-type-session {
+	background: #fafafa;
+	border: 1px solid white;
+}
+
+.wcpt-schedule .global-session .wcpt-time {
+	background: #fafafa;
+/*color: white;*/
+}
+
+.wcpt-schedule .global-session .wcpt-session-type-custom {
+	background: #fafafa;
+	border: 1px solid white;
+}
+
+.wcpt-schedule .wcpt-session-title {
+	display: block;
+	line-height: 1.125;
+	margin-bottom: 1rem;
+}
+
+.wcpt-schedule .wcpt-session-speakers {
+	font-size: .75rem;
+	line-height: 1.125;
+}
+
+.wcpt-schedule .wcpt-session-speakers a {
+	color: #ad4c23;
+}
+
+.wcpt-schedule a:hover {
+	color: #ff6f32;
+}
+
+.sponsor-level-title {
+	border-bottom: 5px solid #ad4c23;
+	border-top: 5px solid #ad4c23;
+	color: #190700;
+	padding: .5rem;
+}
+
+.sponsor {
+	border-bottom: 1px solid #e3d6ca;
+}
+
+.sponsor .sharedaddy {
+	display: none;
+}
+
+.sponsor .sponsor-title img {
+	max-width: 60%;
+}
+
+.sponsor .sponsor-description > p:first-of-type {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.site-title {
+	width: 270px;
+	padding-top: 250px;
+	background: transparent url('https://raw.githubusercontent.com/tomjn/wcmcr/master/WCMCR-Logo/WCMCR-Logo.png') top center no-repeat;
+/*background: transparent url('https://2016.manchester.wordcamp.org/files/2016/07/wcmcr2.png') center center no-repeat;*/
+/*https://2015.la.wordcamp.org/files/2015/05/logo.png');*/
+	margin: 3em auto;
+	white-space: nowrap;
+	overflow: hidden;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	background-size: contain;
+}
+
+@media print,screen and (min-width: 768px) {
+	.site-title {
+		width: 300px;
+		padding-top: 270px;
+	/*height: 300px;*/
+	}
+}
+
+/*@media screen and (min-width: 1024px) {
+	.site-title {
+		width: 543px;
+		height: 250px;
+	}
+}*/
+.site-description {
+	display: none;
+}
+
+.menu-primary-nav-container {
+	max-width: 960px !important;
+	margin: auto;
+	display: block;
+	width: 100%;
+}
+
+.wcb_widget_sponsors .sponsor-level {
+	background: rgba(255,255,255,0.4);
+	border-radius: 2px;
+	border-top: 5px solid #fdc17b;
+	-moz-box-shadow: 0 0 12px rgba(126,99,88,0.05);
+	-webkit-box-shadow: 0 0 12px rgba(126,99,88,0.05);
+	box-shadow: 0 0 12px rgba(126,99,88,0.05);
+	padding: 1rem;
+	margin-bottom: 1rem;
+}
+
+.wcb_widget_sponsors .sponsor-level-title {
+	border-bottom: 0 none;
+	border-top: 0 none;
+	color: #190700;
+	font-size: 1.5rem;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.wcb_widget_sponsors .sponsor-logo {
+	margin: 1rem 0 0;
+}
+
+.wcb_widget_sponsors .sponsor-logo img {
+	display: block;
+}
+
+.tix_tickets_table + p,
+.tix-ticket-form + p {
+	margin-top: 1rem;
+}
+
+.tix_tickets_table th,
+.tix-ticket-form th {
+	border-bottom: 5px solid #ad4c23;
+	font-family: 'PT Mono', monospace;
+	font-size: 1.125rem;
+	font-weight: normal;
+	padding: .5rem;
+}
+
+.tix_tickets_table td,
+.tix-ticket-form td {
+	border-bottom: 1px solid #d1bca9;
+	line-height: 1.25;
+	padding: 1rem .5rem;
+}
+
+strong.tix-ticket-title {
+	color: #190700;
+	display: block;
+	font-family: 'PT Mono', monospace;
+	font-weight: normal;
+	margin: 0;
+}
+
+span.tix-ticket-excerpt {
+	display: block;
+	font-size: .75rem;
+	line-height: 1.5;
+}
+
+td.tix-column-price,
+td.tix-column-quantity {
+	background: #fff8f0;
+	text-align: right;
+}
+
+td.tix-column-remaining {
+	text-align: center;
+}
+
+.tix_tickets_table .tix-row-total td,
+.tix-ticket-form .tix-row-total td {
+	border-bottom: 0 none;
+	text-align: right;
+}
+
+.entry-content .tix_tickets_table label {
+	display: inline;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.tix-error, .tix-notice, .tix-info {
+	margin-bottom: 1rem;
+}
+
+.site-header {
+	background-color: #fafafa;
+/*background: url('https://2016.belgrade.wordcamp.org/files/2016/03/wcbgd-header-bg.jpg') center center no-repeat;*/
+	background-size: cover;
+	border-top: none;
+}
+
+article {
+	background-color: #fff;
+/*background-image: url('https://2015.la.wordcamp.org/files/2015/05/divider-post.png'), url('https://2015.la.wordcamp.org/files/2015/05/divider-post-after.png');*/
+	background-image: none !important;
+}
+
+#main {
+/*background: url('https://2015.la.wordcamp.org/files/2015/05/logo-prefooter.png') 50% 100% no-repeat;*/
+	background: none !important;
+}
+
+.site-info .site-info-generator {
+/*background: url('https://2015.la.wordcamp.org/files/2015/05/logo-footer.png') 50% 0 no-repeat;*/
+/*background: none;*/
+}
+
+/* date in the menu */
+li#menu-item-701 {
+	float: right;
+	font-weight: bold;
+}
+
+li#menu-item-701 > a {
+	color: #ad4c23;
+}
+
+#comments {
+	display: none;
+}
+
+.single-post #comments {
+	display: block;
+}
+
+.comment-form label,
+.comment-form input {
+	margin: 1em 0;
+}
+
+.comment-form label {
+	color: #cfc0ba;
+	text-transform: uppercase;
+	display: block;
+	font-size: 90%;
+}
+
+#comment {
+	padding: 1em;
+	max-width: 100%;
+}
+
+pre {
+	background: #f6f2ef;
+	color: #b32419;
+	font-family: 'PT Mono', monospace;
+	border: 1px dashed #e3d6ca;
+	border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: .5rem;
+	margin: 1.5em 0;
+	-moz-transition: all 300ms;
+	-o-transition: all 300ms;
+	-webkit-transition: all 300ms;
+	transition: all 300ms;
+	width: 100%;
+}
+
+.entry-content img {
+	border-radius: 4px;
+}
+
+table {
+	width: 100%;
+	max-width: 100%;
+}
+
+#footer-widget-2 div {
+	text-align: center;
+}
+
+.single-wcb_session .comments-area {
+	display: none;
+}
+
+.speaker-avatar {
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+.entry-meta,
+.post-navigation,
+.post-edit-link {
+	display: none;
+}
+
+#after-header-widgets #homewapuu {
+	box-shadow: none;
+}
