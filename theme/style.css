@@ -1363,25 +1363,18 @@ td.tix-column-remaining {
 
 .site-header {
 	background-color: #fafafa;
-/*background: url('https://2016.belgrade.wordcamp.org/files/2016/03/wcbgd-header-bg.jpg') center center no-repeat;*/
+	background-image: url( 'http://2016.manchester.wordcamp.org/files/2016/09/hexagon-beehive-white-honeycomb-2560x1600-c2-fafafa-f6efef-l2-6-102-a-30-f-5.png' );
 	background-size: cover;
 	border-top: none;
 }
 
 article {
 	background-color: #fff;
-/*background-image: url('https://2015.la.wordcamp.org/files/2015/05/divider-post.png'), url('https://2015.la.wordcamp.org/files/2015/05/divider-post-after.png');*/
 	background-image: none !important;
 }
 
 #main {
-/*background: url('https://2015.la.wordcamp.org/files/2015/05/logo-prefooter.png') 50% 100% no-repeat;*/
 	background: none !important;
-}
-
-.site-info .site-info-generator {
-/*background: url('https://2015.la.wordcamp.org/files/2015/05/logo-footer.png') 50% 0 no-repeat;*/
-/*background: none;*/
 }
 
 /* date in the menu */
