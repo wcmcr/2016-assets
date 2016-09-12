@@ -1462,3 +1462,11 @@ table {
 #after-header-widgets #homewapuu {
 	box-shadow: none;
 }
+#after-header-widgets {
+	display:none;
+}
+
+.home #after-header-widgets {
+	display:block;
+}
+}
