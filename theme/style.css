@@ -1474,6 +1474,10 @@ table {
 	#masthead { display:none;}
 	#secondary { display:none;}
 	#colophon { display:none; }
+	#main {
+		margin:0;
+		padding:0;
+	}
 	#primary {
 		float:none;
 		width:auto;
@@ -1481,6 +1485,7 @@ table {
 	}
 	article {
 		padding:0;
+		margin:0;
 		box-shadow:none;
 	}
 }
