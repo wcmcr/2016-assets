@@ -1479,4 +1479,8 @@ table {
 		width:auto;
 		padding:0;
 	}
+	article {
+		padding:0;
+		box-shadow:none;
+	}
 }
