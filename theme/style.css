@@ -1470,3 +1470,14 @@ table {
 	display:block;
 }
 }
+
+@media print {
+	#masthead { display:none;}
+	#secondary { display:none;}
+	#colophon { display:none; }
+	#primary {
+		float:none;
+		width:auto;
+		padding:0;
+	}
+}
