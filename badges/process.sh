@@ -5,7 +5,8 @@ finalcount=0;
 count=0;
 othername='';
 othertwitter='';
-mkdir pdfs
+rm -r pdfs;
+mkdir pdfs;
 while IFS=, read ticket name twitter
 do
 	let count=count+1;
@@ -25,11 +26,6 @@ do
 
 		# remove temp.svg
 		rm temp.svg
-		#exit;
-
-		# append page to master PDF
-		#gs -dBATCH -dNOPAUSE -q -sDEVICE=pdfwrite -sOutputFile=finished.pdf finished.pdf next.pdf
-		
 
 		#exit;
 	else
@@ -38,4 +34,5 @@ do
 	fi;
 done < "names.csv"
 
+# append page to master PDF
 "/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" -o finished.pdf pdfs/*.pdf
