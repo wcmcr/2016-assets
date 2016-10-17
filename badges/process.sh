@@ -7,7 +7,7 @@ othername='';
 othertwitter='';
 rm -r pdfs;
 mkdir pdfs;
-while IFS=, read ticket name twitter
+while IFS=, read ticket name twitter first last
 do
 	let count=count+1;
 	let finalcount=finalcount+1;
