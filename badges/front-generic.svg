@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg5663"
+   viewBox="0 0 527.90487 741.66479"
+   height="148mm"
+   width="105mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="front-generic.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1276"
+     inkscape:window-height="756"
+     id="namedview4263"
+     showgrid="false"
+     inkscape:zoom="0.89707532"
+     inkscape:cx="266.42793"
+     inkscape:cy="237.8901"
+     inkscape:window-x="4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5663" />
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5665">
+    <pattern
+       patternTransform="matrix(0.86058001,-0.49685611,0.49685611,0.86058001,1430.9457,892.61718)"
+       id="pattern5797"
+       xlink:href="#p1" />
+    <pattern
+       id="p1"
+       patternUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="102"
+       height="176.6691823752"
+       patternTransform="translate(1440,900) rotate(330 0 0)">
+      <path
+         stroke="#fafafa"
+         stroke-width="6"
+         fill="none"
+         d="M0 0V29.4448637292 L51 58.8897274584 L102 29.4448637292V0M0 176.6691823752 V147.224318646L51 117.7794549168 L102 147.224318646V176.6691823752M51 58.8897274584v58.8897274584"
+         id="path5760" />
+    </pattern>
+  </defs>
+  <g
+     id="g7611"
+     transform="matrix(0.71481596,0,0,0.71702665,-1.209866,-6.559921)">
+    <rect
+       ry="0.92557669"
+       y="-1.7238106"
+       x="-5.4582824e-06"
+       height="1055.8098"
+       width="744.09454"
+       id="rect5673"
+       style="opacity:0.91000001;fill:#fbf3e5;fill-opacity:1;stroke:none;stroke-width:15.96649551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:url(#pattern5797)"
+       d="m 0,-1.7238082 2861.8912,0 0,1788.6820082 -2861.8912,0 z"
+       id="path5764"
+       inkscape:connector-curvature="0" />
+  </g>
+  <path
+     class="hexagon"
+     d="m 199.89117,92.86796 0,0 c -21.40283,37.11075 -42.76207,74.24721 -64.13264,111.37673 11.04107,19.18738 22.08214,38.3745 33.12321,57.56163 -0.003,-0.28413 -0.01,-0.56381 -0.01,-0.85114 0,-11.30499 2.07511,-24.01973 8.30709,-39.91989 10.9822,-32.39625 22.18805,-65.18014 32.92642,-97.40024 3.07905,-8.91265 5.91671,-16.36514 11.57431,-16.36909 5.09086,-0.004 6.92386,2.59913 9.44725,8.07559 l 32.41681,93.85706 c 10.87037,-32.22404 21.76563,-65.17322 32.90129,-96.90066 1.33078,-3.43224 3.83544,-5.16763 7.54355,-5.16763 3.64431,0 5.42361,1.58641 6.91843,5.30105 16.43143,45.96534 33.36927,93.86101 51.48321,143.52493 9.91866,-17.23729 19.83732,-34.47432 29.75623,-51.71161 -21.36325,-37.12582 -42.72668,-74.25189 -64.0901,-111.37797 l -128.16479,0 z m 92.72214,57.60881 -23.90923,73.14974 17.01838,47.57819 c 5.88617,0.35281 11.45806,1.05793 11.45806,1.05793 5.88741,0.35553 5.19726,9.53699 -0.6926,9.18541 0,0 -18.03759,-1.41692 -28.77078,-1.41692 -11.42112,0 -29.11461,1.41692 -29.11461,1.41692 -5.88864,0.35158 -6.5842,-8.47435 -0.69803,-9.18541 0,0 5.92534,-0.70512 12.50067,-1.05793 l -39.47564,-119.8086 -10.89871,37.14288 c -4.71597,15.42258 -8.31177,26.49261 -8.31177,36.03058 0,13.7791 4.84948,23.31386 9.00512,30.7372 5.53617,9.18516 10.73023,16.95612 10.73023,26.14128 0,9.90487 -7.12778,19.11967 -17.2994,19.72029 -0.81232,0.11415 -1.64088,0.19197 -2.5064,0.19197 -0.003,0 -0.005,0 -0.007,0 2.73595,4.75453 5.47189,9.50907 8.20783,14.26385 l 128.20691,0 c 6.82533,-11.86138 13.65067,-23.72276 20.47599,-35.58413 -11.42136,0.0877 -27.94466,1.40852 -27.94466,1.40852 -5.88593,0.35157 -6.58026,-8.47436 -0.69803,-9.18541 0,0 5.91893,-0.70513 12.50067,-1.05794 l -39.777,-120.72792 z"
+     id="path3419"
+     style="fill:#eea548"
+     inkscape:connector-curvature="0" />
+  <path
+     class="hexagon"
+     d="m 338.77109,74.244634 c -49.87902,0 -99.76003,-0.0029 -149.63807,0 l -74.8178,130.000056 74.8183,130.00131 149.63757,0 C 363.7106,290.91214 388.65012,247.57854 413.58963,204.24469 388.65012,160.9111 363.7106,117.57725 338.77109,74.243645 Z m -3.15146,5.477453 c 23.88928,41.507783 47.7783,83.015573 71.66684,124.523843 l -71.66708,124.52386 -143.33441,0 -71.66684,-124.52386 71.66684,-124.52261 143.33441,0 z"
+     id="path3421"
+     style="fill:#eea548"
+     inkscape:connector-curvature="0" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:21.87591743px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="140.06165"
+     y="370.66843"
+     id="text8161"
+     sodipodi:linespacing="125%"
+     transform="scale(0.99845726,1.0015451)"><tspan
+       id="tspan8163"
+       x="140.06165"
+       y="370.66843"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.87591743px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#ad4c23;fill-opacity:1">WordCamp Manchester</tspan></text>
+  <text
+     id="text7600"
+     y="650.16205"
+     x="264.62933"
+     style="font-style:normal;font-weight:normal;font-size:42.67897797px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#604b43;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     sodipodi:linespacing="125%"
+     transform="scale(0.99845726,1.0015451)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'PT Mono';-inkscape-font-specification:'PT Mono'"
+       y="650.16205"
+       x="264.62933"
+       id="tspan7602">name</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'PT Mono';-inkscape-font-specification:'PT Mono'"
+       id="tspan7604"
+       y="703.51074"
+       x="264.62933">twitter</tspan></text>
+  <text
+     id="text7650"
+     y="395.04834"
+     x="237.93604"
+     style="font-style:normal;font-weight:normal;font-size:21.87591743px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     xml:space="preserve"
+     sodipodi:linespacing="125%"
+     transform="scale(0.99845726,1.0015451)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.87591743px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#ad4c23;fill-opacity:1"
+       y="395.04834"
+       x="237.93604"
+       id="tspan7652">2016</tspan></text>
+</svg>
