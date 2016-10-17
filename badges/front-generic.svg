@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -8,33 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
+   width="148mm"
+   height="210mm"
+   viewBox="0 0 744.09449 1052.3622"
    id="svg5663"
-   viewBox="0 0 527.90487 741.66479"
-   height="148mm"
-   width="105mm"
+   version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="front-generic.svg">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1276"
-     inkscape:window-height="756"
-     id="namedview4263"
-     showgrid="false"
-     inkscape:zoom="0.89707532"
-     inkscape:cx="266.42793"
-     inkscape:cy="237.8901"
-     inkscape:window-x="4"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg5663" />
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -50,92 +32,133 @@
   <defs
      id="defs5665">
     <pattern
-       patternTransform="matrix(0.86058001,-0.49685611,0.49685611,0.86058001,1430.9457,892.61718)"
-       id="pattern5797"
-       xlink:href="#p1" />
+       inkscape:collect="always"
+       xlink:href="#pattern5797"
+       id="pattern4775"
+       patternTransform="matrix(0.86058001,-0.49685611,0.49685611,0.86058001,1430.9457,892.61718)" />
     <pattern
-       id="p1"
-       patternUnits="userSpaceOnUse"
-       x="0"
-       y="0"
-       width="102"
+       inkscape:collect="always"
+       xlink:href="#p1"
+       id="pattern5797"
+       patternTransform="matrix(0.86058001,-0.49685611,0.49685611,0.86058001,1430.9457,892.61718)" />
+    <pattern
+       patternTransform="translate(1440,900) rotate(330 0 0)"
        height="176.6691823752"
-       patternTransform="translate(1440,900) rotate(330 0 0)">
+       width="102"
+       y="0"
+       x="0"
+       patternUnits="userSpaceOnUse"
+       id="p1">
       <path
-         stroke="#fafafa"
-         stroke-width="6"
-         fill="none"
+         id="path5760"
          d="M0 0V29.4448637292 L51 58.8897274584 L102 29.4448637292V0M0 176.6691823752 V147.224318646L51 117.7794549168 L102 147.224318646V176.6691823752M51 58.8897274584v58.8897274584"
-         id="path5760" />
+         fill="none"
+         stroke-width="6"
+         stroke="#fafafa" />
     </pattern>
+    <mask
+       maskUnits="userSpaceOnUse"
+       id="mask4771">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:url(#pattern4775)"
+         d="m 0,-1.7238082 2861.8912,0 0,1788.6820082 -2861.8912,0 z"
+         id="path4773" />
+    </mask>
   </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.87757672"
+     inkscape:cx="-100.15676"
+     inkscape:cy="235.30706"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg5663"
+     showgrid="false"
+     inkscape:window-width="1436"
+     inkscape:window-height="855"
+     inkscape:window-x="4"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
   <g
-     id="g7611"
-     transform="matrix(0.71481596,0,0,0.71702665,-1.209866,-6.559921)">
+     id="g5317">
     <rect
        ry="0.92557669"
        y="-1.7238106"
        x="-5.4582824e-06"
        height="1055.8098"
        width="744.09454"
-       id="rect5673"
+       id="rect4769"
        style="opacity:0.91000001;fill:#fbf3e5;fill-opacity:1;stroke:none;stroke-width:15.96649551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       mask="url(#mask4771)"
+       style="opacity:0.91000001;fill:#fafafa;fill-opacity:1;stroke:none;stroke-width:15.96649551;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect5673"
+       width="744.09454"
+       height="1055.8098"
+       x="-5.4582824e-06"
+       y="-1.7238106"
+       ry="0.92557669" />
+  </g>
+  <g
+     id="g5321">
     <path
-       style="fill:url(#pattern5797)"
-       d="m 0,-1.7238082 2861.8912,0 0,1788.6820082 -2861.8912,0 z"
-       id="path5764"
+       class="hexagon"
+       d="m 282.42792,134.70914 0,0 c -29.94174,51.75645 -59.82249,103.54874 -89.71909,155.33137 15.44603,26.75964 30.89206,53.51893 46.33809,80.27822 -0.004,-0.39626 -0.0134,-0.78631 -0.0134,-1.18704 0,-15.76648 2.903,-33.49908 11.6213,-55.67421 15.36368,-45.18137 31.04023,-90.90337 46.06279,-135.83907 4.30747,-12.43001 8.27726,-22.82361 16.19202,-22.82912 7.12192,-0.006 9.68621,3.62487 13.21633,11.26261 l 45.34987,130.89758 c 15.20724,-44.9412 30.44929,-90.89372 46.02764,-135.14234 1.86171,-4.78676 5.36564,-7.20702 10.55314,-7.20702 5.09825,0 7.58742,2.21248 9.67862,7.39309 22.98694,64.10549 46.68232,130.9031 72.02302,200.1668 13.87583,-24.03995 27.75165,-48.07955 41.62783,-72.1195 -29.88696,-51.77747 -59.77357,-103.55528 -89.66018,-155.3331 l -179.2976,0 z m 129.7147,80.34403 -33.44809,102.01816 23.80806,66.35484 c 8.23453,0.49204 16.02939,1.47544 16.02939,1.47544 8.23625,0.49584 7.27076,13.30074 -0.96893,12.81042 0,0 -25.23389,-1.97611 -40.24921,-1.97611 -15.9777,0 -40.73022,1.97611 -40.73022,1.97611 -8.23798,0.49032 -9.21104,-11.81874 -0.97651,-12.81042 0,0 8.28932,-0.9834 17.48795,-1.47544 l -55.2249,-167.09086 -15.24687,51.80125 c -6.59747,21.50908 -11.62785,36.94787 -11.62785,50.24999 0,19.217 6.78424,32.51464 12.59782,42.86758 7.74489,12.81007 15.01118,23.64783 15.01118,36.4579 0,13.8138 -9.9715,26.66522 -24.2012,27.50287 -1.1364,0.15919 -2.29553,0.26773 -3.50635,0.26773 -0.004,0 -0.007,0 -0.0103,0 3.82748,6.6309 7.65496,13.2618 11.48244,19.89305 l 179.35653,0 c 9.54837,-16.54245 19.09675,-33.0849 28.64512,-49.62735 -15.97805,0.12232 -39.09351,1.96439 -39.09351,1.96439 -8.23419,0.49032 -9.20553,-11.81875 -0.97651,-12.81042 0,0 8.28035,-0.9834 17.48795,-1.47545 L 412.14262,215.05386 Z"
+       id="path3419"
+       style="fill:#eea548"
+       inkscape:connector-curvature="0" />
+    <path
+       class="hexagon"
+       d="m 476.71569,108.73615 c -69.77883,0 -139.56043,-0.004 -209.33789,0 l -104.66722,181.30436 104.66791,181.3061 209.3372,0 C 511.60511,410.91112 546.49453,350.47599 581.38395,290.04051 546.49453,229.60538 511.60511,169.16991 476.71569,108.73477 Z m -4.40877,7.63912 c 33.42018,57.88876 66.84001,115.77752 100.25915,173.66697 l -100.25949,173.66698 -200.51932,0 -100.25914,-173.66698 100.25914,-173.66525 200.51932,0 z"
+       id="path3421"
+       style="fill:#eea548"
        inkscape:connector-curvature="0" />
   </g>
-  <path
-     class="hexagon"
-     d="m 199.89117,92.86796 0,0 c -21.40283,37.11075 -42.76207,74.24721 -64.13264,111.37673 11.04107,19.18738 22.08214,38.3745 33.12321,57.56163 -0.003,-0.28413 -0.01,-0.56381 -0.01,-0.85114 0,-11.30499 2.07511,-24.01973 8.30709,-39.91989 10.9822,-32.39625 22.18805,-65.18014 32.92642,-97.40024 3.07905,-8.91265 5.91671,-16.36514 11.57431,-16.36909 5.09086,-0.004 6.92386,2.59913 9.44725,8.07559 l 32.41681,93.85706 c 10.87037,-32.22404 21.76563,-65.17322 32.90129,-96.90066 1.33078,-3.43224 3.83544,-5.16763 7.54355,-5.16763 3.64431,0 5.42361,1.58641 6.91843,5.30105 16.43143,45.96534 33.36927,93.86101 51.48321,143.52493 9.91866,-17.23729 19.83732,-34.47432 29.75623,-51.71161 -21.36325,-37.12582 -42.72668,-74.25189 -64.0901,-111.37797 l -128.16479,0 z m 92.72214,57.60881 -23.90923,73.14974 17.01838,47.57819 c 5.88617,0.35281 11.45806,1.05793 11.45806,1.05793 5.88741,0.35553 5.19726,9.53699 -0.6926,9.18541 0,0 -18.03759,-1.41692 -28.77078,-1.41692 -11.42112,0 -29.11461,1.41692 -29.11461,1.41692 -5.88864,0.35158 -6.5842,-8.47435 -0.69803,-9.18541 0,0 5.92534,-0.70512 12.50067,-1.05793 l -39.47564,-119.8086 -10.89871,37.14288 c -4.71597,15.42258 -8.31177,26.49261 -8.31177,36.03058 0,13.7791 4.84948,23.31386 9.00512,30.7372 5.53617,9.18516 10.73023,16.95612 10.73023,26.14128 0,9.90487 -7.12778,19.11967 -17.2994,19.72029 -0.81232,0.11415 -1.64088,0.19197 -2.5064,0.19197 -0.003,0 -0.005,0 -0.007,0 2.73595,4.75453 5.47189,9.50907 8.20783,14.26385 l 128.20691,0 c 6.82533,-11.86138 13.65067,-23.72276 20.47599,-35.58413 -11.42136,0.0877 -27.94466,1.40852 -27.94466,1.40852 -5.88593,0.35157 -6.58026,-8.47436 -0.69803,-9.18541 0,0 5.91893,-0.70513 12.50067,-1.05794 l -39.777,-120.72792 z"
-     id="path3419"
-     style="fill:#eea548"
-     inkscape:connector-curvature="0" />
-  <path
-     class="hexagon"
-     d="m 338.77109,74.244634 c -49.87902,0 -99.76003,-0.0029 -149.63807,0 l -74.8178,130.000056 74.8183,130.00131 149.63757,0 C 363.7106,290.91214 388.65012,247.57854 413.58963,204.24469 388.65012,160.9111 363.7106,117.57725 338.77109,74.243645 Z m -3.15146,5.477453 c 23.88928,41.507783 47.7783,83.015573 71.66684,124.523843 l -71.66708,124.52386 -143.33441,0 -71.66684,-124.52386 71.66684,-124.52261 143.33441,0 z"
-     id="path3421"
-     style="fill:#eea548"
-     inkscape:connector-curvature="0" />
+  <g
+     id="g5325">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:30.55635262px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="198.42656"
+       y="522.94183"
+       id="text8161"
+       sodipodi:linespacing="125%"><tspan
+         id="tspan8163"
+         x="198.42656"
+         y="522.94183"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.55635262px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#ad4c23;fill-opacity:1">WordCamp Manchester</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7650"
+       y="556.99579"
+       x="335.13782"
+       style="font-style:normal;font-weight:normal;font-size:30.55635262px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:30.55635262px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#ad4c23;fill-opacity:1"
+         y="556.99579"
+         x="335.13782"
+         id="tspan7652">2016</tspan></text>
+  </g>
   <text
      xml:space="preserve"
-     style="font-style:normal;font-weight:normal;font-size:21.87591743px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     x="140.06165"
-     y="370.66843"
-     id="text8161"
-     sodipodi:linespacing="125%"
-     transform="scale(0.99845726,1.0015451)"><tspan
-       id="tspan8163"
-       x="140.06165"
-       y="370.66843"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.87591743px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#ad4c23;fill-opacity:1">WordCamp Manchester</tspan></text>
-  <text
+     style="font-style:normal;font-weight:normal;font-size:59.61413574px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#604b43;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="373.76041"
+     y="913.33942"
      id="text7600"
-     y="650.16205"
-     x="264.62933"
-     style="font-style:normal;font-weight:normal;font-size:42.67897797px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#604b43;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     xml:space="preserve"
-     sodipodi:linespacing="125%"
-     transform="scale(0.99845726,1.0015451)"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'PT Mono';-inkscape-font-specification:'PT Mono'"
-       y="650.16205"
-       x="264.62933"
-       id="tspan7602">name</tspan><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'PT Mono';-inkscape-font-specification:'PT Mono'"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7602"
+       x="373.76041"
+       y="913.33942"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'PT Mono';-inkscape-font-specification:'PT Mono'">name</tspan><tspan
+       sodipodi:role="line"
+       x="373.76041"
+       y="987.85706"
        id="tspan7604"
-       y="703.51074"
-       x="264.62933">twitter</tspan></text>
-  <text
-     id="text7650"
-     y="395.04834"
-     x="237.93604"
-     style="font-style:normal;font-weight:normal;font-size:21.87591743px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     xml:space="preserve"
-     sodipodi:linespacing="125%"
-     transform="scale(0.99845726,1.0015451)"><tspan
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.87591743px;font-family:'PT Mono';-inkscape-font-specification:'PT Mono';fill:#ad4c23;fill-opacity:1"
-       y="395.04834"
-       x="237.93604"
-       id="tspan7652">2016</tspan></text>
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'PT Mono';-inkscape-font-specification:'PT Mono'">twitter</tspan></text>
 </svg>
