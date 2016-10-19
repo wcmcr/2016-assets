@@ -22,7 +22,8 @@ do
 		sed -i -e "s/name1/$name/g;s/twitter1/$twitter/g;s/name2/$othername/g;s/twitter2/$othertwitter/g" temp.svg
 
 		# output PDF
-		rsvg-convert -f pdf -o pdfs/$finalcount.pdf temp.svg
+		#rsvg-convert -f pdf -o pdfs/$finalcount.pdf temp.svg
+		/Applications/Inkscape.app/Contents/Resources/script --without-gui --export-pdf=$PWD/pdfs/$finalcount.pdf $PWD/temp.svg
 
 		# remove temp.svg
 		rm temp.svg
