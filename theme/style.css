@@ -180,6 +180,10 @@ a img.aligncenter {
 	margin-right: auto;
 }
 
+span.alrignright {
+	display:block;
+	text-align:right;
+}
 a {
 	color: #ad4c23;
 	text-decoration: none;
